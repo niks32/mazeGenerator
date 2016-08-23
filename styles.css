@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.maze {
+    margin: 0 auto;
+    width: 200px;
+}
+
+.out {
+    margin: 0 auto;
+    margin-top: 15px;
+    width: 600px;
+    height: 600px;
+    border: 1px solid black;
+    position: relative;
+    overflow: auto;
+}
+
+.cellNode {
+    position: absolute;
+    font-size: 10pt;
+}
